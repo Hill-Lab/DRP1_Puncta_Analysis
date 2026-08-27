@@ -6,7 +6,7 @@ Nikon JOBS and GA3 files, ImageJ (FIJI) macros, and R scripts used in the submit
 
 
 ## Nikon JOBS and GA3 files
-> These files can only be opened and edited on valid Nikon-licensed software, specifically requiring the **NIS-Elements High-Content (HC)** or **Advanced Research (AR)** packages. Additionally, these scripts access and **override internal microscope variables** used to position the stage in a manner that **bypasses certain safety limits**. As such, these scripts should be utilized with **extreme caution** and executed under **active surveillance** to prevent damage to sensitive microscopy equipment. The Hill Lab is not responsible for any damage incurred through operation of these scripts, as outlined in the **MIT License** disclosed on the <a href="https://github.com/Hill-Lab/DRP1_Puncta_Analysis">DRP1_Puncta_Analysis</a> repository webpage.
+> These files can only be opened and edited on valid Nikon-licensed software, specifically requiring the **NIS-Elements High-Content (HC)** or **Advanced Research (AR)** packages. Additionally, these scripts access and **override internal microscope variables** used to position the stage in a manner that **bypasses certain safety limits**. As such, these scripts should be utilized with **extreme caution** and executed under **active surveillance** to prevent damage to sensitive microscopy equipment. The Hill Lab is not responsible for any damage incurred through operation of these scripts, as outlined in the **MIT License** disclosed.
 
 *for autonomous imaging and single-cell mask segmentation*
 
