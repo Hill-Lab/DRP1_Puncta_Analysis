@@ -44,7 +44,7 @@ This macro does not warrant the memory utilization and crash warnings outlined a
 
 > These scripts were rarely executed in full, and were instead run in sections. This was done primarily to ensure that all data formatting, organization, and merging proceeded without error, and secondarily to reduce RStudio crashes that occurred with consecutive instructions on massive data frames (some containing upwards of 10 million rows). Most of these crashes appear to be limitations with RStudio itself, although several instances did result in a total system restart (BSoD). All plots were run as individual code sections and manually saved (to adjust and update plotting parameters at runtime where necessary). The input directories and files utilized in these scripts are generated automatically (if selected at runtime) by the ImageJ macros above.
 
-> Some of these R scripts were used in the parsing and analysis of MitoGraph data. For more information regarding MitoGraph, please view the main <a href="https://github.com/vianamp/MitoGraph">MitoGraph repository</a>, our other <a href="https://github.com/Hill-Lab/MitoGraph-Contrib-RScripts">MitoGraph scripts</a>, and our published data in <a href="https://www.sciencedirect.com/science/article/pii/S0003269718301921?via%3Dihub">*Methods for imaging mammalian mitochondrial morphology: A prospective on MitoGraph*</a>.
+> Some of these R scripts were used in the parsing and analysis of MitoGraph data. For more information regarding MitoGraph, please view the main <a href="https://github.com/vianamp/MitoGraph">MitoGraph repository</a>, our other <a href="https://github.com/Hill-Lab/MitoGraph-Contrib-RScripts">MitoGraph scripts</a>, and our published data in <a href="https://www.sciencedirect.com/science/article/pii/S0003269718301921?via%3Dihub">*"Methods for imaging mammalian mitochondrial morphology: A prospective on MitoGraph"*</a>.
 
 *to parse, format, merge, and organize single-cell data to generate violin plots and perform statistical analyses*
 
@@ -87,5 +87,5 @@ Parses, formats, and merges experimental replicates of *in vitro* phase separati
 1. *dirDistrib.bat*  
 A simple batch script used to evenly distribute mitochondrial fluorescence images into numbered directories. Can only be run from the command line and requires arguments (see remarks in script). Organizing the images in this way may not be strictly necessary to run MitoGraph, although it does appear to benefit the batch scheduling of jobs when performed on a high-performance computing cluster.
 
-2. *mitographrun_20250924_slurm.sh*
+2. *mitographrun_20250924_slurm.sh*  
 This shell script file is only useful for scheduling the processing of mitochondrial fluorescence images on a high-performance computing cluster. Running MitoGraph locally or on different server infrastructure will require unique setup. 
